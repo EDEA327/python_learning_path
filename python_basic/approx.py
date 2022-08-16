@@ -1,6 +1,6 @@
 def run():
     objetivo = int(input('Escoge un numero: '))
-    epsilon = 0.0001
+    epsilon = 0.001
     paso = epsilon**2
     respuesta = 0.0
 
