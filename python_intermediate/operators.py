@@ -1,4 +1,4 @@
-# Defini mis lambas.
+# Defini mis lambdas.
 addition = lambda x,y: x + y
 subtraction = lambda x,y: x - y
 multiplication = lambda x,y: x * y
