@@ -9,7 +9,7 @@ def run():
         print("Bienvenido, algunas cervezas no estan a la venta para adultos mayores")
     elif age >= 18 :
         print("Bienvenido puede entrar")
-   
+
 
 if __name__ == '__main__':
     run()
