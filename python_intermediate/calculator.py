@@ -21,13 +21,13 @@ def run():
         num2 = float(num2)
     # Ejececucion según lo escogido
         if option == 1:
-            print(f"{num1} + {num2} = {addition(num1,num2)}")
+            print(f"{num1} + {num2} =  {addition(num1,num2)}")
         elif option == 2:
-            print(f"{num1} - {num2}  = {subtraction(num1,num2)}")
+            print(f"{num1} - {num2}  =  {subtraction(num1,num2)}")
         elif option == 3:
-            print(f"{num1} * {num2} ={multiplication(num1,num2)}")
+            print(f"{num1} * {num2} = {multiplication(num1,num2)}")
         elif option == 4:
-            print(f"{num1} / {num2} {division(num1,num2)}")
+            print(f"{num1} / {num2} = {division(num1,num2)}")
     except ValueError:
         print("Type a valid option number")
 
