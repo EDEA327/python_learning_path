@@ -1,7 +1,7 @@
 class Washing_machine:
     def __init__(self):
         pass
-    def lavar(self,temp = "Hot"):
+    def washing(self,temp = "Hot"):
         self._fill_water_tank(temp)
         self._add_soap()
         self._wash()
@@ -14,4 +14,7 @@ class Washing_machine:
         print(f'Washing')
     def _spin_dry(self):
         print(f'Spinning dry')
+
+if __name__ == '__main__':
+    washer = Washing_machine()
 
