@@ -16,7 +16,7 @@ def run():
         assert num1.isnumeric()
         num2 = input("Type your second number: ")
         assert num2.isnumeric()
-    # Para evitar problemas con las operaciones
+    # Para evitar problemas con las operaciones puse tipo float para hacerlo más general
         num1 = float(num1)
         num2 = float(num2)
     # Ejececucion según lo escogido
