@@ -4,17 +4,20 @@ from operators import *
 
 def run():
     menu= """
-    Plese select an option
     1-Addition
     2-Subtraction
     3-Multiplication
     4-Division
-    """
+    Plese select an option:  """
     option = int(input(menu))
     num1 = input("Type your first number: ")
-    assert num1.isnumeric,"must be a number"
+    assert num1.isnumeric()
     num2 = input("Type your second number: ")
-    assert num2.isnumeric,"must be a number"
+    assert num2.isnumeric()
+    # Para evitar problemas con las operaciones
+    num1 = float(num1)
+    num2 = float(num2)
+    # Ejececucion según lo escogido
     if option == 1:
         print(f" The addition  is {addition(num1,num2)}")
     elif option == 2:
