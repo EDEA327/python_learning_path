@@ -3,7 +3,6 @@ def quit_repeated(my_list):
     my_list = list(set(my_list))
     return my_list
 
-
 def run():
     elements_length = int(input(" How many elements? : "))
     if elements_length <= 0 :
