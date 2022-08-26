@@ -1,9 +1,9 @@
 from bokeh.plotting import figure, output_file, show
 
 def run():
-    output_file('graficado_simple.html')
+    output_file('plain_graph.html')
     fig = figure()
-    total_vals = int(input('Cuantos valores quieres graficar? : '))
+    total_vals = int(input('How many values? : '))
     x_vals = list(range(total_vals))
     y_vals = []
 
