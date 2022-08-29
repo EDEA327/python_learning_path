@@ -11,8 +11,7 @@ def run():
     """
     The main function of the program.
     """
-    print("Enter the string to check.")
-    string = input()
+    string = input("Enter the string to check:  ")
     if is_palindrome(string):
         print(f"The {string} is a palindrome")
     else:
