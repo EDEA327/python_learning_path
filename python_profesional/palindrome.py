@@ -14,7 +14,9 @@ def run():
     print("Enter the string to check.")
     string = input()
     if is_palindrome(string):
-        print("The string is a palindrome")
+        print(f"The {string} is a palindrome")
+    else:
+        print(f"The {string} is not a palindrome")
 
 if __name__ == "__main__":
     run()
