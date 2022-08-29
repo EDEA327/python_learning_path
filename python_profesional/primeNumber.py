@@ -11,7 +11,7 @@ def run() -> None:
     """
     Main function
     """
-    number: int = int(input('Number to check'))
+    number: int = int(input('Number to check: '))
     if is_prime(number):
         print(f'{number} is prime')
     else:
