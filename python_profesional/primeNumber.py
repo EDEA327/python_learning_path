@@ -7,7 +7,7 @@ def is_prime(number: int) -> bool:
     check_list = [i for i in range(2,number) if number % i == 0]
     return len(check_list) == 0
 
-def run():
+def run() -> None:
     """
     Main function
     """
