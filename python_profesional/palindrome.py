@@ -7,11 +7,11 @@ def is_palindrome(string:str) -> bool:
     """
     string = string.replace(" ","").lower()
     return string == string[::-1]
-def run():
+def run() -> None:
     """
     The main function of the program.
     """
-    string = input("Enter the string to check:  ")
+    string:str = input("Enter the string to check: ")
     if is_palindrome(string):
         print(f"The {string} is a palindrome")
     else:
