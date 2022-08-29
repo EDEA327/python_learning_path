@@ -8,7 +8,13 @@ def is_palindrome(string:str) -> bool:
     string = string.replace(" ","").lower()
     return string == string[::-1]
 def run():
-    print(is_palindrome(1000))
+    """
+    The main function of the program.
+    """
+    print("Enter the string to check.")
+    string = input()
+    if is_palindrome(string):
+        print("The string is a palindrome")
 
 if __name__ == "__main__":
     run()
