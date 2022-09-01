@@ -17,7 +17,7 @@ def fibo_gen(n_max:int ) -> Generator:
 
 if __name__ == '__main__':
     # Creamos el objeto y le enviamos un numero maximo u_num
-    #! La sucesion se detendra antes de llegar a 10 si queremos que se impriman 10 sucesiones debemos usar un ciclo for en fibo_gen
+    #! La sucesion se detendra antes de llegar a u_num si queremos que se impriman u_num sucesiones debemos usar un ciclo for en fibo_gen
     u_num:int = int(input("Please type a number to generate fibonacci sucesion: "))
     assert u_num > 0,"Only positive numbers are allowed"
     fibonacci: Generator = fibo_gen(u_num)
