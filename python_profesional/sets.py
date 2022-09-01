@@ -4,7 +4,7 @@ def remove__duplicates(my_list:List[Any]) -> List[Any]:
     """
     Remove duplicates from a list.
     """
-    return list(set(my_list))
+    return sorted(list(set(my_list)))
 def run():
     n_elements:int = int(input("Number of elements: "))
     assert n_elements > 0 , "Number of elements must be positive integer"
